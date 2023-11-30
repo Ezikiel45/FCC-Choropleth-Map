@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - FCC  Choropleth Map</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="main">
+  <h1 id="title" class="title">
+      United States Educational Attainment
+    </h1>
+    <h4 class="description" id="description">
+      Percentage of adults age 25 and older with a bachelor's degree or higher (2010-2014)
+      </h4>
+  <svg id="legend">
+    <g>
+      <rect x="10" y="0" fill="#0b55cd" width="25%" height="40%" />
+      <text x="0" y="30" fill="black">0%</text>
+    </g>
+    <g>
+      <rect x="25%" y="0" fill="#0944a3" width="25%" height="40%" />
+      <text x="23%" y="30" fill="black">15%</text>
+    </g>
+    <g>
+      <rect x="50%" y="0" fill="#063278" width="25%" height="40%" />
+      <text x="46%" y="30" fill="black">25%</text>
+    </g>
+    <g>
+      <rect x="75%" y="0" fill="#04204e" width="25%" height="40%" />
+      <text x="73%" y="30" fill="black">35%</text>
+    </g>
+  </svg>
+  <svg class='canvas'>
+    
+  </svg>
+  <div id="tooltip">
+    
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/d3/7.6.1/d3.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js'></script><script type="module" src="./script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+html, body {
+  height: 100vh;
+  margin: 0;
+}
+
+* {
+  font-family: Helvetica sans-serif;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #c7e9c0;
+}
+
+.canvas {
+  background-color: #c7e9c0;
+  border-radius: 15px;
+  min-height: 600px;
+  min-width: 1000px;
+}
+
+.title {
+  font-size: 35px;
+  text-transform: uppercase
+}
+
+#legend {
+  position: relative;
+  top: 20px;
+  height: 30px;
+}
+
+#tooltip {
+  visibility: hidden;
+  width: auto;
+  height: auto;
+  background-color: #70a5fb;
+  border-radius: 5px;
+  border: 2px solid black;
+  padding: 5px;
+  margin: 10px;
+  position: absolute;
+}
+
+.description {
+  margin: 0;
+}
